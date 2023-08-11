@@ -1,0 +1,99 @@
+.card1 {
+  height: 68vh;
+  width: 350px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 50px;
+  transition: 0.7s;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  float: left;
+  background-color: #15202b;
+  font-size: 0.8em;
+  overflow: auto;
+}
+.card1_content {
+  background: #f1e9d2;
+  height: 50px;
+  border: 2px solid black;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  color: black;
+}
+
+#rocket {
+  width: 50%;
+  transform: rotate(25deg);
+}
+#history {
+  width: 50px;
+  position: sticky;
+  bottom: 10px;
+  left: 290px;
+  transition: 0.3s;
+  top: 420px;
+}
+#history:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}
+/* download resume work */
+.download {
+  width: 260px;
+  height: 100px;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-sizing: border-box;
+  overflow: visible;
+  color: yellowgreen;
+  background-color: #15202b;
+  box-shadow: 0 0 20px #000000;
+  transition: 0.4s;
+}
+.download:hover {
+  box-shadow: 0 0 35px #000000;
+  transform: scale(1.03);
+}
+.down_img_conainer {
+  height: 68vh;
+  width: 30vw;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+.view_pdf {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  padding: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #f1e9d2;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+.view_pdf:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+.download_pdf {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  padding: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #f1e9d2;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+.download_pdf:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+}

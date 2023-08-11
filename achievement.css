@@ -1,0 +1,180 @@
+@keyframes outer_circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes inner_circle {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#achievement {
+  width: 300px;
+}
+.ache {
+  font-size: 30px;
+  overflow: visible;
+}
+.skills {
+  width: 64vw;
+  height: 68vh;
+  overflow: hidden;
+  color: #be93e4;
+  display: inline-block;
+  margin-left: 50px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  background-color: rgb(32, 33, 36);
+  transition: 0.4s;
+}
+.skill_img {
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+}
+.skill_img:hover {
+  cursor: pointer;
+}
+.change {
+  margin-left: 200px;
+}
+.total_parent {
+  border: 2px solid rebeccapurple;
+  margin-left: 120px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  animation: outer_circle 40s linear infinite;
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
+}
+
+.inner_circle {
+  width: 200px;
+  height: 200px;
+  border: 2px solid yellowgreen;
+  animation: inner_circle 20s linear infinite;
+  border-radius: 50%;
+  background-color: #f1e9d2;
+}
+.parent_inner {
+  width: 200px;
+  height: 200px;
+  transform: translate(70px, 70px);
+}
+
+.Ione {
+  animation: outer_circle 40s linear infinite;
+}
+.Inner_parent_one {
+  transform: translate(70px, 75px);
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+}
+.Itwo {
+  animation: outer_circle 40s linear infinite;
+}
+.Inner_parent_two {
+  transform: translate(-26px, 23px);
+  width: 50px;
+  height: 50px;
+}
+.Ithree {
+  animation: outer_circle 40s linear infinite;
+}
+.Inner_parent_three {
+  transform: translate(70px, 70px);
+  width: 50px;
+  height: 50px;
+}
+.Ifour {
+  animation: outer_circle 40s linear infinite;
+}
+.Inner_parent_four {
+  transform: translate(70px, -180px);
+  width: 50px;
+  height: 50px;
+}
+.Ifive {
+  animation: outer_circle 40s linear infinite;
+}
+.Inner_parent_five {
+  transform: translate(170px, -130px);
+  width: 50px;
+  height: 50px;
+}
+.Oone {
+  animation: inner_circle 40s linear infinite;
+}
+.Outer_parent_one {
+  transform: translate(12px, -165px);
+  width: 60px;
+  height: 60px;
+}
+.Otwo {
+  animation: inner_circle 40s linear infinite;
+}
+.Outer_parent_two {
+  transform: translate(-10px, -20px);
+  width: 60px;
+  height: 60px;
+}
+.Othree {
+  animation: inner_circle 40s linear infinite;
+}
+.Outer_parent_three {
+  transform: translate(272px, -278px);
+  width: 60px;
+  height: 60px;
+}
+
+.Ofour {
+  animation: inner_circle 40s linear infinite;
+}
+.Outer_parent_four {
+  transform: translate(278px, -138px);
+  width: 60px;
+  height: 60px;
+}
+
+.skill_written {
+  color: yellowgreen;
+  font-size: 2.6em;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  animation: skill_animation 8s linear infinite;
+}
+@keyframes skill_animation {
+  0% {
+    box-shadow: 0 0 10px #2ba805;
+    border-bottom-right-radius: 35px;
+  }
+  50% {
+    box-shadow: 0 0 30px #49e819;
+    border-bottom-right-radius: 35px;
+  }
+  100% {
+    box-shadow: 0 0 10px #2ba805;
+    border-bottom-right-radius: 35px;
+  }
+}

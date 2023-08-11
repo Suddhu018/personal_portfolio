@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.footx {
+  display: flex;
+  align-items: center;
+  background-color: rgb(32, 33, 36);
+  border: 2px solid black;
+  overflow: visible;
+  transition: 0.3s;
+  height: 120px;
+  justify-content: center;
+}
+.footx:hover {
+  animation: red_animation 5s linear infinite;
+}
+#footer_image {
+  width: 160px;
+  margin-left: 8px;
+  align-self: flex-end;
+  z-index: 69;
+}
+.footer_contacts {
+  width: 27px;
+  transition: 0.3s;
+}
+.footer_contacts:hover {
+  transform: translateY(-6px);
+}
+.footx2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+}
+.upar_neeche {
+  display: flex;
+  flex-direction: column;
+}
+.upar_neeche:hover {
+  color: rgb(255, 255, 118);
+}

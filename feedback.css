@@ -1,0 +1,75 @@
+.feedback {
+  width: 62px;
+  bottom: 12px;
+  right: 25px;
+  position: fixed;
+  z-index: 100;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+.feedback:hover {
+  transform: scale(0.8);
+  border: 2px solid black;
+  cursor: pointer;
+}
+.feedback2 {
+  width: 63px;
+  bottom: 100px;
+  display: none;
+  right: 20px;
+  position: fixed;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.feedback2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.feedback3 {
+  width: 47px;
+  bottom: 80px;
+  display: none;
+  right: 100px;
+  position: fixed;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.feedback3:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.feedback4 {
+  width: 50px;
+  bottom: 33px;
+  display: none;
+  right: 145px;
+  position: fixed;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.feedback4:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.get_to_top {
+  width: 40px;
+  bottom: 5px;
+  left: 9px;
+  position: fixed;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: 0.3s;
+  border: 2px solid black;
+  border-radius: 50%;
+  z-index: 5;
+}
+.get_to_top:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

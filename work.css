@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.work_main_parent {
+  border: 2px solid black;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  background-color: rgb(32, 33, 36);
+  box-shadow: 0 0 20px #000000;
+  overflow: hidden;
+}
+.work_written {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 32px;
+  margin-top: 15px;
+  font-weight: bolder;
+  color: yellowgreen;
+}
+.first2_work {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.work1 {
+  height: 400px;
+  width: 500px;
+  border: 2px solid black;
+  margin: 30px;
+  border-radius: 50px;
+  background-color: #15202b;
+  box-shadow: 0 0 40px #000000;
+  transition: 0.35s;
+}
+.work2 {
+  height: 400px;
+  width: 500px;
+  border: 2px solid black;
+  margin: 30px;
+  border-radius: 50px;
+  background-color: #15202b;
+  box-shadow: 0 0 40px #000000;
+  transition: 0.35s;
+}
+
+.work3 {
+  height: 400px;
+  width: 500px;
+  border: 2px solid black;
+  margin: 30px;
+  border-radius: 50px;
+  background-color: #15202b;
+  box-shadow: 0 0 40px #000000;
+  transition: 0.35s;
+}
+.work4 {
+  height: 400px;
+  width: 500px;
+  border: 2px solid black;
+  margin: 30px;
+  border-radius: 50px;
+  background-color: #15202b;
+  box-shadow: 0 0 40px #000000;
+  transition: 0.35s;
+}
+.work5_leetcode {
+  height: 400px;
+  width: 900px;
+  margin: 30px;
+  border-radius: 50px;
+  background-color: #15202b;
+  box-shadow: 0 0 40px #000000;
+  transition: 0.25s;
+  text-align: center;
+}
+
+.work1:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  border: 2px solid rebeccapurple;
+  box-shadow: 0 0 60px #000000;
+}
+.work2:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  border: 2px solid rebeccapurple;
+  box-shadow: 0 0 60px #000000;
+}
+.work3:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  border: 2px solid rebeccapurple;
+  box-shadow: 0 0 60px #000000;
+}
+.work4:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  border: 2px solid rebeccapurple;
+  box-shadow: 0 0 60px #000000;
+}
+.work5_leetcode:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  border: 2px solid rebeccapurple;
+  box-shadow: 0 0 60px #000000;
+}
+#leet_hr {
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+}
